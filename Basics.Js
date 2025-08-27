@@ -28,5 +28,12 @@
 // a can we use outer of the scope
 // and we can redeclare the a variable
 
+//const Keyword
+// {
+//     a= 10;
+// }
+//a we can't be used in outer of the scope
+// and we can't redeclare the a variable
+// -----------------------------------------------------------------//
 
 
