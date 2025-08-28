@@ -13,6 +13,7 @@
 // a%b
 // a**b
 // a*b
+// -----------------------------------------------------------------//
 
 //Assingment Operators Just we can use  "=" iseqauls to sysmbol
 // let a = 10;
@@ -25,6 +26,13 @@
 // a%=b
 
 // console.log(a-=b)
+// -----------------------------------------------------------------//
 
+//Spread operator to spread the into char
+
+// let a ="Hello World"
+// let hello = [...a]
+
+// console.log(hello)
 
 
