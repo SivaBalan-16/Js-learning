@@ -7,12 +7,12 @@
 // let a = 10;
 // let b = 20;
 
-// a+b
-// a-b
-// a/b
-// a%b
-// a**b
-// a*b
+// a+b;
+// a-b;
+// a/b;
+// a%b;
+// a**b;
+// a*b;
 // -----------------------------------------------------------------//
 
 //Assingment Operators Just we can use  "=" iseqauls to sysmbol
@@ -22,17 +22,15 @@
 // a=b;
 // a+=b;
 // a-=b;
-// a/=b
-// a%=b
-
-// console.log(a-=b)
+// a/=b;
+// a%=b;
+// console.log(a-=b);
 // -----------------------------------------------------------------//
 
 //Spread operator to spread the into char
 
-// let a ="Hello World"
-// let hello = [...a]
+// let a ="Hello World";
+// let hello = [...a];
 
-// console.log(hello)
-
+// console.log(hello);
 

@@ -1,5 +1,5 @@
 // printing statement
-// console.log("Hello world")
+// console.log("Hello world");
 
 // -----------------------------------------------------------------//
 //declare variables
@@ -10,12 +10,12 @@
 
 // -----------------------------------------------------------------//
 // d=a+b+c;
-// console.log(d)
+// console.log(d);
 
 // -----------------------------------------------------------------//
 //let KeyWord
 // {
-//     let a = 10
+//     let a = 10;
 // }
 //a can't be used in outer of the scope
 //and we can't redeclare the a variable 
@@ -42,24 +42,24 @@
 // c = true;
 // d = undefined;
 // e = null;
-// f= Symbol(123)
+// f= Symbol(123);
 
-// console.log(typeof(f))
+// console.log(typeof(f));
 // -----------------------------------------------------------------//
 
 
 //Just normal string
 // 
-// let text = 'You can call me "siva" '
+// let text = 'You can call me "siva" ';
 // 
-// console.log(text)
+// console.log(text);
 // -----------------------------------------------------------------//
 
 //String interpolation
 
 // let text = "Siva"
 
-// console.log(`Hey there ,This me ${text}`)
+// console.log(`Hey there ,This me ${text}`);
 // -----------------------------------------------------------------//
 
 
