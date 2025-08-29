@@ -36,4 +36,31 @@
 // and we can't redeclare the a variable
 // -----------------------------------------------------------------//
 
+//Data Types
+// a =123;
+// b = "Hello";
+// c = true;
+// d = undefined;
+// e = null;
+// f= Symbol(123)
+
+// console.log(typeof(f))
+// -----------------------------------------------------------------//
+
+
+//Just normal string
+// 
+// let text = 'You can call me "siva" '
+// 
+// console.log(text)
+// -----------------------------------------------------------------//
+
+//String interpolation
+
+// let text = "Siva"
+
+// console.log(`Hey there ,This me ${text}`)
+// -----------------------------------------------------------------//
+
+
 

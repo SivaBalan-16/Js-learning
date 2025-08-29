@@ -2,9 +2,13 @@
 // function hello(){
 //     return "Hello World";
 // }
+// -----------------------------------------------------------------//
+
 
 // this how we can call the function
 // console.log(hello());
+// -----------------------------------------------------------------//
+
 
 //Arrow function 
 
@@ -13,6 +17,16 @@
 //     return a+b;
 // }
 // console.log(sum(2,3))
+// -----------------------------------------------------------------//
+
+
+//Function Experssion
+// let sum = function sum(a,b){
+//     return a+b ;
+// }
+// console.log(sum(1,2))
+
+// -----------------------------------------------------------------//
 
 //Function using Arrow function
 // let sum = (a,b)=> a+b;
