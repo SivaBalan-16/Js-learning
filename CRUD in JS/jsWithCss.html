@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Css manipulation by Js</title>
+    <style>
+       
+         #box {
+            display: flex;
+            background-color: black;
+            width: 100px;
+            height: 100px;
+        }
+         #box.widthmax {
+            width: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box" >
+
+    </div>
+    <button onclick="change()">change</button>
+
+</body>
+<script>
+    let box = document.getElementById("box")
+    function change() {
+        box.classList.toggle("widthmax")
+    }
+</script>
+
+</html>

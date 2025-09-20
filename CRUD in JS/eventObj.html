@@ -1,0 +1,11 @@
+<h1 id="result">Name</h1>
+<button  onclick="Update(event)">Siva</button>
+<button  onclick="Update(event)">Ram</button>
+<button  onclick="Update(event)">Balan</button>
+<script>
+    let name = document.getElementById("Name")
+    let Result = document.getElementById("result")
+    function Update(event){
+          Result.innerText = event.target.innerText
+    }
+</script>
