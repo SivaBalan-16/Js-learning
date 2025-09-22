@@ -1,5 +1,8 @@
-let num = []
-let update = [1,2,3,4,5,6]
+let fruit =["Apple","Mango","Banana","Orange"]
 
-const newarr = new Array(update)
-console.log(update.length)
+let basket=[]
+
+for(count=0; count<=3;count=count+1){
+        basket.push(fruit[count])
+}
+console.log(basket)
