@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CM to INCH </title>
+    <title>Celsius to Fahreheit</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -70,14 +70,14 @@
 <body>
     <div id="Wrap">
         <div>
-            <h2>cm to inches </h2>
+            <h2>Celsius to Fahreheit</h2>
 
         </div>
         <div id="Input-div">
             <input type="number" id="Input">
         </div>
         <div>
-            <button class="btn" onclick="Update()">Convert to inches</button>
+            <button class="btn" onclick="Update()">Convert to Fahreheit</button>
         </div>
         <div id="result"></div>
     </div>
@@ -87,8 +87,8 @@
         let result = document.getElementById("result")
         function Update() {
             let _Value = Number(inputBox.value)
-            let ans = _Value / 2.54
-            result.innerHTML = ans.toFixed(2) + " inches"
+            let ans = (_Value *(9/5)+32)
+            result.innerHTML = ans.toFixed(2) + "Fahreheit"
         }
     </script>
 </body>
